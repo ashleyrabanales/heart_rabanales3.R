@@ -85,8 +85,8 @@ ggplot(data = heart3) +
     tag = "Figure 2:",
     x = "Days",
     y = "Count",
-    fill = "Death Occured") +
-    theme_bw()
+    fill = "Death Occured") + theme_bw()
+
 
   ggsave(file = "fig_2R.png", width = 8, height = 5)
 
