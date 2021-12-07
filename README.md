@@ -1,9 +1,18 @@
-# Personal data projects
+# Heart Failure
 
 Use this template repo for your personal data projects. Would you please use the following format for your repository? Please name your repository in your personal space using the following naming structure `[title]-[lastname]-[languagesused]`.  You will then complete a pull request to move your personal data projects into our organization.
 
-- __Project Purpose:__ Take one to two paragraphs to explain your goals.  Why did you use this data? What skills are you going to demonstrate? Did you do this work for a client? 
+- __Project Purpose:__ 
+ 
+ 
+ The data I am using is the heart failures clinical records from Davide Chicco, Giuseppe Jurman. BMC Medical Informatics and Decision Making 20, 16 (2020).
 - __Tools used:__ Provide an overview of the programming languages and packages you leveraged for this work.  You could provide links to the pertinent reading material that you leveraged to complete the job. Provide links to your final scripts stored in your repository.
+
+https://www.medicalnewstoday.com/articles/322726
+
+https://www.kidney.org/content/heart-kidney-health-3-blood-tests-ask
+
+
 - __Results:__ This is your conclusion.  Explain why your work matters.  How could others use it?  What are your next steps? Show some key findings.
 
 ## Folder structure
