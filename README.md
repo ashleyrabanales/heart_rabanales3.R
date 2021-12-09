@@ -14,7 +14,7 @@ I'll be using R in VSCode to complete this project and background of the body's 
     - https://care.diabetesjournals.org/content/32/3/424#:~:text=Lower%20serum%20creatinine%20was%20associated,0.71%20and%200.80%20mg%2Fdl.
 
 
-- __Results:__ This is your conclusion.  Explain why your work matters.  How could others use it?  What are your next steps? Show some key findings.
+- __Results:__ Those who have Diabetes are at higher risks in developing kidney and heart failure. There is a higher risk in females to advance bloot clots than males. The first few days of the following up period there are more deaths occurred and after 114 days they tend to drop significally. After creating a few vizualisation and seeing the data points react and research. I can say diabetes is one of the main factor that could cause mulitple disease and heart failure due to the relationship of sodium, CPK, blood pressure and anemia. Most of the research I did, showed many results about diabetes are more likely to develop heart failure. In investigating further about the variabales meantion and diving deeper in the research of the variables purpose toward the body. 
 
 ![](documents/fig_1R.png)
 
