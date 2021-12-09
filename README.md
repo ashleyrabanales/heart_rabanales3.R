@@ -20,24 +20,30 @@ I'll be using R in VSCode to complete this project and background of the body's 
 
 - __Creatinine Phosphokinase__: Level of the CPK enzyme in the blood (mcg/L)
 
-- Shown in Figure 1, I created a scatter plot of Platelets and Creatine Phosphokinase (CPK) by creating a group for the ages ranging from 40-50, 50-64, and 64+ and seperating them by gender. 
-
-- __Serum Creatinine__: Level of serum creatinine in the blood (mg/dL)
-- __Creatinine Phosphokinase__: Level of the CPK enzyme in the blood (mcg/L)
-- __Death Occured (Death_Event)__: If the patient deceased during the follow-up period
-- __New_Time__: Follow-up period (days) with a total of 285 divided into the intervals of 5.
-- __Serum Sodium__: Level of serum sodium in the blood (mEq/L)
-- __Diabetes__: If the patient has diabetes
 - __Age_Group__: ages ranging from 40-50, 50-64, and 64+
+
+
+
+
+
 
 
 
 ![](documents/fig_2R.png)
 
+- __Death Occured (Death_Event)__: If the patient deceased during the follow-up period
+- __New_Time__: Follow-up period (days) with a total of 285 divided into the intervals of 5.
+
 
 
 
 ![](documents/fig_3R.png)
+
+- __Age_Group__: ages ranging from 40-50, 50-64, and 64+
+- __Diabetes__: If the patient has diabetes
+- __Serum Sodium__: Level of serum sodium in the blood (mEq/L)
+- __Serum Creatinine__: Level of serum creatinine in the blood (mg/dL)
+
 ## Folder structure
 
 ```
