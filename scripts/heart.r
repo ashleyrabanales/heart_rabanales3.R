@@ -97,6 +97,7 @@ ggplot(data = heart3) +
   ggsave(file = "fig_2R.png", width = 8, height = 5)
 
 
+
 #fig 3. ling graph
 heart2$diabetes <- factor(heart2$diabetes, levels = c("0", "1"),
                        labels = c("No - Diabetes", "Yes - Diabetes"))
