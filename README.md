@@ -1,7 +1,15 @@
-# Heart Failure
+# Cardiovascular Diseases: Heart Failure
 
 - __Project Purpose:__ 
- The data I am using is the heart failures clinical records from Davide Chicco, Giuseppe Jurman. BMC Medical Informatics and Decision Making (2020). To create visualizations of the variables to determine if there can be a prediction made or to discovery new fingding that could further in future research.
+ The data I am using is the heart failures clinical records from Davide Chicco, Giuseppe Jurman. BMC Medical Informatics and Decision Making (2020). Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worlwide.
+Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure.
+
+Most cardiovascular diseases can be prevented by addressing behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol using population-wide strategies.
+
+People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
+
+To create visualizations of the variables to determine if there can be a prediction made or any influences in the the type of variables given. To discover new findings that could be used for further research.
+
 - __Tools used:__ 
 I'll be using R in VSCode to complete this project and background of the body's production and definition of each variables
     - https://www.medicalnewstoday.com/articles/322726
@@ -19,6 +27,10 @@ I'll be using R in VSCode to complete this project and background of the body's 
 ![](documents/platelets.png)
 
 - __Creatinine Phosphokinase__: Level of the CPK enzyme in the blood (mcg/L)
+    - When the total CPK level is very high, it most often means there has been injury or stress to muscle tissue, the heart, or the brain.
+    - Total CPK normal values:
+    10 to 120 micrograms per liter (mcg/L)
+    - https://www.mountsinai.org/health-library/tests/creatine-phosphokinase-test
 
 - __Age_Group__: ages ranging from 40-50, 50-64, and 64+
 
