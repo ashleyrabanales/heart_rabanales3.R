@@ -66,6 +66,12 @@ heart3 <- heart2 %>%
      time >=  229 ~"229+ days"
   ))
 
+heart3 %>%
+new_time <- levels = c("4-57 days", "58-114 days", "58-114 days",
+                   "115-171 days", "172-228 days", "229+ days")
+fct_relevel(new_time)
+
+
 ########
 ##releveling the group 
 library(forcats)
@@ -73,7 +79,7 @@ library(ggplot2)
 
 
 heart3$DEATH_EVENT <- factor(heart3$DEATH_EVENT, levels = c("0", "1"),
-                       labels = c("No", "Yes"))
+                       labels = c("No", "Yes"))                
 ggplot(data = heart3) +
   geom_bar(mapping = aes(x = new_time, fill = DEATH_EVENT),
   position = "dodge") +

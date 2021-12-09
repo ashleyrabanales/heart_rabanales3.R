@@ -1,20 +1,43 @@
 # Heart Failure
 
-Use this template repo for your personal data projects. Would you please use the following format for your repository? Please name your repository in your personal space using the following naming structure `[title]-[lastname]-[languagesused]`.  You will then complete a pull request to move your personal data projects into our organization.
-
 - __Project Purpose:__ 
- 
- 
- The data I am using is the heart failures clinical records from Davide Chicco, Giuseppe Jurman. BMC Medical Informatics and Decision Making 20, 16 (2020).
-- __Tools used:__ Provide an overview of the programming languages and packages you leveraged for this work.  You could provide links to the pertinent reading material that you leveraged to complete the job. Provide links to your final scripts stored in your repository.
-
-https://www.medicalnewstoday.com/articles/322726
-
-https://www.kidney.org/content/heart-kidney-health-3-blood-tests-ask
+ The data I am using is the heart failures clinical records from Davide Chicco, Giuseppe Jurman. BMC Medical Informatics and Decision Making (2020). To create visualizations of the variables to determine if there can be a prediction made or to discovery new fingding that could further in future research.
+- __Tools used:__ 
+I'll be using R in VSCode to complete this project and background of the body's production and definition of each variables
+    - https://www.medicalnewstoday.com/articles/322726
+    - https://www.mountsinai.org/health-library/tests/creatine-phosphokinase-test
+    - https://www.kidney.org/content/heart-kidney-health-3-blood-tests-ask
 
 
 - __Results:__ This is your conclusion.  Explain why your work matters.  How could others use it?  What are your next steps? Show some key findings.
 
+![](documents/fig_1R.png)
+
+- Shown in Figure 1, I created a scatter plot of Platelets and Creatine Phosphokinase (CPK) by creating a group for the ages ranging from 40-50, 50-64, and 64+ and seperating them by gender. 
+
+- __Platelets__: Platelets in the blood (kiloplatelets/mL)
+![](documents/platelets.png)
+
+- __Creatinine Phosphokinase__: Level of the CPK enzyme in the blood (mcg/L)
+
+- Shown in Figure 1, I created a scatter plot of Platelets and Creatine Phosphokinase (CPK) by creating a group for the ages ranging from 40-50, 50-64, and 64+ and seperating them by gender. 
+
+- __Serum Creatinine__: Level of serum creatinine in the blood (mg/dL)
+- __Creatinine Phosphokinase__: Level of the CPK enzyme in the blood (mcg/L)
+- __Death Occured (Death_Event)__: If the patient deceased during the follow-up period
+- __New_Time__: Follow-up period (days) with a total of 285 divided into the intervals of 5.
+- __Serum Sodium__: Level of serum sodium in the blood (mEq/L)
+- __Diabetes__: If the patient has diabetes
+- __Age_Group__: ages ranging from 40-50, 50-64, and 64+
+
+
+
+![](documents/fig_2R.png)
+
+
+
+
+![](documents/fig_3R.png)
 ## Folder structure
 
 ```
