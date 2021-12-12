@@ -59,8 +59,18 @@ As illustrated in Figure 3, the shadow area of each age group is representing th
     - Kidney diseased can have an increase of heart and blood diseases. 
     - https://www.kidney.org/content/heart-kidney-health-3-blood-tests-ask
 
+## Folder structure
 
-## Writing about data science
-
-[Thusan's article on how writing about data science is not easy](https://towardsdatascience.com/lets-admit-it-writing-about-data-science-is-not-easy-37a376777d36) could be helpful as you document your project and skills.
-
+```
+- readme.md
+- scripts
+---- heart.r
+- data 
+---- readme.md 
+---- heart_failure_clinic.csv
+- documents
+---- fig_1R.png
+---- fig_2R.png
+---- fig_3R.png
+---- platelets.png
+```
